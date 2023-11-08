@@ -1,0 +1,25 @@
+<configuration debug="true">
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>%d{dd-MM-YYYY HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+    </encoder>
+  </appender>
+  <appender name="roll-by-time" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>logs\\app.log</file>
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      <fileNamePattern>logs\\app.%d{yyyy-MM-dd-HH}.log.zip
+      </fileNamePattern>
+      <maxHistory>20</maxHistory>
+      <totalSizeCap>10GB</totalSizeCap>
+    </rollingPolicy>
+    <encoder>
+      <pattern>%d{dd-MM-YYYY HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+    </encoder>
+  </appender>
+  <logger name="com.goglotek" level="INFO">
+    <appender-ref ref="roll-by-time"/>
+  </logger>
+  <root level="debug">
+    <appender-ref ref="STDOUT"/>
+  </root>
+</configuration>
