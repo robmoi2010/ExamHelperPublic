@@ -30,7 +30,9 @@ Some of the support that we can offer are:
 - Any AI development and training.
 - Change of license for commercial usage.
 - Any unrelated Java and AI projects.
-
+# Donation
+If you have found this application useful, please consider making a donation.
+https://www.paypal.com/donate/?hosted_button_id=D4DT7E2KB22DC
 # Contact
 Website: www.goglotek.com
 email: rkip0744@gmail.com
