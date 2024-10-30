@@ -6,7 +6,7 @@ Java project for cheating on online tests. It can run in the background without 
 - The captured text is passed through a text formatter to format the text.
 - The formatted text is then sent to a default configured AI to generate the answer.
 - The generated answer is passed through a text formatter to format the answer.
-- The formatted text is then sent to a text-to-speech to dictate the answer to the lister.
+- The formatted text is then sent to a text-to-speech to dictate the answer to the listener.
   Can be configured to print answers to the console instead of dictating in cases where the exam does not capture the user screen.
 
 NB: The quality of the answers is dictated by the AI that is used. Can be configured to use various AI's to generate answers.
