@@ -30,7 +30,7 @@ Some of the support that we can offer are:
 - Any AI development and training.
 - Change of license for commercial usage.
 - Any unrelated Java and AI projects.
-# Donation
+# 💰 Donation
 If you have found this application useful, please consider making a donation.
 https://www.paypal.com/donate/?hosted_button_id=P4FZ9XQ7K3GY2
 # Contact
