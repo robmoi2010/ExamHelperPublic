@@ -35,4 +35,5 @@ If you have found this application useful, please consider making a donation.
 https://www.paypal.com/donate/?hosted_button_id=P4FZ9XQ7K3GY2
 # Contact
 Website: www.goglotek.com
-email: rkip0744@gmail.com
+email: robmoi2010@gmail.com
+mobile: +254724116115
